@@ -44,12 +44,16 @@
                   <h3>An independent study modeling the growth of basil through Machine Learning</h3>
                 </hgroup>
                 <p>For this project we collected environmental, physical and chronological data surrounding the growth of a sample of basil plants.  We used Arduino boards to collect humidity and temperature each hour.  Physical growth was approximated using an overhead camera capturing hourly images.  These images were then processed to generate a “green pixel count” that would represent growth of the basil.  After aggregating all sample data. We evaluated the growth through linear and polynomial regression models to identify any strong correlations between growth and temperature, humidity, or soil humidity.  This project was independent study conducted outside of the class room under the mentorship of Professor <a href="#">Jiang Feng</a>.  Code snippets and results can be found in the shared google <a href="https://colab.research.google.com/drive/1PMsJeCxn3NbhfG9s1VEabhuyL1Ivp8pO" target="_blank">colab</a> for the project.</p>
-            </section>
-            <section>
                 <figrure>
                     <img src="assets\plantLab.jpeg">
                     <figcaption>Raw Growth Data Distribution</figcaption>
                 </figrure>
+            </section>
+            <section>
+                <figure>
+                    <img src="assets/histrogram.png">
+                    <figcaption>Sample01 relevant histograms</figcaption>
+                </figure>
             </section>
             <section>
                 <hgroup>
@@ -57,6 +61,8 @@
                   <h3>Software designed for Hydrologik LLC as data ETL tool</h3>
                 </hgroup>
                 <p>GO4 is a replacement tool for a legacy software know as “gopher”.  The program functions as an ETL tool (Extract, Transform, Load) for Hydrologik LLC.  The program collects form AIP’s, and shared data locations on the server.  After transforming, the data is stored in an SQL database and some is brokered to the state of Colorado Hydrobase API.  The tool is written in Python developed with multiple monitoring breakpoints utilizing SMT email notifications.  The tool is hosted and developed using AWS on an EC2 instance.</p>
+            </section>
+            <section>
                 <figrure>
                     <img src="assets/etl-process-explained-diagram.png">
                     <figcaption>ETL Diagram</figcaption>
